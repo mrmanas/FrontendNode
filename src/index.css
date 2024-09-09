@@ -1,4 +1,4 @@
-/* Home Component Styles */
+
 .homepage {
   padding: 20px;
   min-height: 100vh;
@@ -46,9 +46,9 @@ form {
 .form-group input,
 .form-group textarea {
   border: none;
-  border-bottom: 2px solid #fff; /* White underline for inputs */
+  border-bottom: 2px solid #fff; 
   background-color: transparent;
-  color: #fff; /* White text color */
+  color: #fff; 
   padding: 10px;
   font-size: 16px;
 }
@@ -72,5 +72,5 @@ button:hover {
 }
 
 p {
-  color: #ff0000; /* Red color for error messages */
+  color: #ff0000; 
 }
