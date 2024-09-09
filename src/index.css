@@ -1,58 +1,4 @@
-nav {
-  background: linear-gradient(135deg, #2c3e50, #34495e);
-  padding: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-  border-bottom: 2px solid #4a00d4;
-}
-
-ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  margin: 0 15px;
-}
-
-a {
-  color: #ecf0f1;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px 20px;
-  border-radius: 25px;
-  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
-}
-
-a:hover {
-  color: #1abc9c;
-  background-color: rgba(0, 0, 0, 0.3);
-  transform: scale(1.05);
-}
-
-a:active {
-  color: #f39c12;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-:root {
-  --primary-color-light: #ffffff;
-  --secondary-color-light: #00bcd4;
-  --text-color-light: #333333;
-  --primary-color-dark: #1a1a1a;
-  --secondary-color-dark: #00bcd4;
-  --text-color-dark: #ecf0f1;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #000;
-  color: #fff;
-}
-
+/* Home Component Styles */
 .homepage {
   padding: 20px;
   min-height: 100vh;
@@ -100,9 +46,9 @@ form {
 .form-group input,
 .form-group textarea {
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #fff; /* White underline for inputs */
   background-color: transparent;
-  color: #fff;
+  color: #fff; /* White text color */
   padding: 10px;
   font-size: 16px;
 }
@@ -126,5 +72,5 @@ button:hover {
 }
 
 p {
-  color: #ff0000;
+  color: #ff0000; /* Red color for error messages */
 }
